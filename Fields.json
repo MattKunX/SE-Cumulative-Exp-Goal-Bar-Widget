@@ -1,0 +1,228 @@
+{
+    "setProgressInfo": {
+      "type": "hidden",
+      "label": "Must save new value before setting",
+      "value": "",
+      "group": "Overrides"
+    },
+    "setProgress": {
+      "type": "button",
+      "label": "Set Progress",
+      "value": "Set Progress",
+      "group": "Overrides"
+    },
+    "pogress": {
+      "type": "number",
+      "label": "Set Progress To",
+      "value": 0,
+      "group": "Overrides"
+    },
+    "goal": {
+      "type": "number",
+      "label": "Total Points Goal",
+      "value": 3000,
+      "group": "Values"
+    },
+    "levels": {
+      "type": "number",
+      "label": "Levels (incentive count)",
+      "value": 5,
+      "group": "Values"
+    },
+    "pointsPerSub": {
+      "type": "number",
+      "label": "Points per sub",
+      "value": 6,
+      "group": "Values"
+    },
+    "pointsPerTip": {
+      "type": "number",
+      "label": "Points per 1 currency",
+      "value": 1,
+      "group": "Values"
+    },
+    "pointsPerBit": {
+      "type": "number",
+      "label": "Points per Bit",
+      "value": 0.01,
+      "group": "Values"
+    },
+    "useCSVgoals": {
+      "type": "checkbox",
+      "label": "Use CSV (Comma Seperated Value) Incentives",
+      "value": false,
+      "group": "Values"
+    },
+    "incentivesNames": {
+      "type": "text",
+      "label": "CSV Incentive Names",
+      "value": "one,two,three,four,five",
+      "group": "Values"
+    },
+   "incentivesValues": {
+      "type": "text",
+      "label": "CSV Incentive Point Values",
+      "value": "50,50,100,100,200",
+      "group": "Values"
+    },
+    "startatlevel1": {
+        "type": "checkbox",
+      "label": "Start at level 1",
+      "value": true,
+      "group": "Style"
+    },
+    "showLevelUpText": {
+        "type": "checkbox",
+      "label": "Show Level Up Text",
+      "value": true,
+      "group": "Style"
+    },
+    "info": {
+        "type": "text",
+      "label": "Info Text ({level}, {points}, {incentive})",
+      "value": "Level {level} - {incentive}",
+      "group": "Style"
+    },
+    "completedMsg": {
+        "type": "text",
+      "label": "All Goals Complete Message",
+      "value": "None",
+      "group": "Style"
+    },
+    "pointDisplay": {
+        "type": "dropdown",
+      "label": "Points & Percentage Display",
+      "value": "separated",
+      "options": {
+          "separated": "Separated",
+            "combined": "Combined",
+            "percent_only": "Percent Only",
+            "points_only": "Points Only",
+            "none": "None"
+      },
+      "group": "Style"
+    },
+    "fontName": {
+      "type": "googleFont",
+      "label": "Font",
+      "value": "VT323",
+      "group": "Style"
+    },
+    "textSize": {
+      "type": "number",
+      "label": "Text Font Size",
+      "value": 24,
+      "group": "Style"
+    },
+    "textStroke": {
+      "type": "number",
+      "label": "Text stroke size",
+      "value": 1,
+      "group": "Style"
+    },
+    "barRadius": {
+      "type": "number",
+      "label": "Bar Roundness",
+      "value": 25,
+      "group": "Style"
+    },
+    "barBorderRadius": {
+      "type": "number",
+      "label": "Bar Border Roundness",
+      "value": 20,
+      "group": "Style"
+    },
+    "textColor": {
+      "type": "colorpicker",
+      "label": "Text Font Color",
+      "value": "rgb(255, 255, 255)",
+      "group": "Style"
+    },
+    "backgroundColor": {
+      "type": "colorpicker",
+      "label": "Background Color",
+      "value": "rgb(55, 55, 55)",
+      "group": "Style"
+    },
+    "barColor1": {
+      "type": "colorpicker",
+      "label": "Bar Color 1",
+      "value": "rgba(255, 223, 92, 1)",
+      "group": "Style"
+    },
+    "barColor2": {
+      "type": "colorpicker",
+      "label": "Bar Color 2",
+      "value": "rgba(253, 252, 191, 1)",
+      "group": "Style"
+    },
+    "barColor3": {
+      "type": "colorpicker",
+      "label": "Bar Color 3",
+      "value": "rgba(211, 131, 5, 1)",
+      "group": "Style"
+    },
+    "barColor4": {
+      "type": "colorpicker",
+      "label": "Bar Color 4",
+      "value": "rgba(93, 60, 58, 1)",
+      "group": "Style"
+    },
+    "barBorderColor1": {
+      "type": "colorpicker",
+      "label": "Bar Border Color 1",
+      "value": "rgba(175, 190, 206, 1)",
+      "group": "Style"
+    },
+    "barBorderColor2": {
+      "type": "colorpicker",
+      "label": "Bar Border Color 2",
+      "value": "rgba(255, 255, 255, 1)",
+      "group": "Style"
+    },
+    "barBorderColor3": {
+      "type": "colorpicker",
+      "label": "Bar Border Color 3",
+      "value": "rgba(119, 127, 112, 1)",
+      "group": "Style"
+    },
+    "barBorderColor4": {
+      "type": "colorpicker",
+      "label": "Bar Border Color 4",
+      "value": "rgba(84, 94, 83, 1)",
+      "group": "Style"
+    },
+    "image": {
+        "type": "image-input",
+      "label": "Level Up Image",
+      "value": "",
+      "group": "Media"
+    },
+    "sound": {
+        "type": "sound-input",
+      "label": "Level Up Sound",
+      "value": "",
+      "group": "Media"
+    },
+    "volume": {
+        "type": "slider",
+      "label": "Volume",
+      "value": 100,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "group": "Media"
+    },
+    "widgetName": {
+      "type": "hidden",
+      "value": "EXP Goal"
+    },
+    "widgetAuthor": {
+      "type": "hidden",
+      "value": "MattKun"
+    },
+    "widgetVersion": {
+      "type": "hidden",
+      "value": "3.0"
+    }
+  }  
