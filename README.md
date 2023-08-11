@@ -70,6 +70,10 @@ The goal progress is automatically saved. However if there are any issues you ca
 4. Select the new widget on the grid.
 5. In the sidebar under the Settings dropdown open the Editor.
 6. Replace each tabs (html, css, js, fields) entire contents with the corresponding files contents.
+	1. HTML.html
+	2. CSS.css
+	3. JS.js
+	4. Fields.json
 7. Done, Save
 
 If you need more help visit the [StreamElements official documentation](https://dev.streamelements.com/docs/widgets/3cf52461e4e34-before-starting).
