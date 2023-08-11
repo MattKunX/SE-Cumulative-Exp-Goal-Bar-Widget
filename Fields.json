@@ -31,13 +31,13 @@
     },
     "pointsPerSub": {
       "type": "number",
-      "label": "Points per sub",
+      "label": "Points per Subscription",
       "value": 6,
       "group": "Values"
     },
     "pointsPerTip": {
       "type": "number",
-      "label": "Points per 1 currency",
+      "label": "Points per 1 Currency",
       "value": 1,
       "group": "Values"
     },
