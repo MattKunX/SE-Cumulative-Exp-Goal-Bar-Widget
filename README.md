@@ -42,7 +42,8 @@ Tier 3: 3 * point value
 By default each level (incentive goal) is the Total Points Goal divided equally by the desired number of levels.
 (per level goal = Total Points / Levels)
 
-#### Comma Separated Goals
+
+### Comma Separated Goals
 However individual goals may be customized by using CSV (comma separated values).
 
 For example if you wanted the following goals:
@@ -53,11 +54,14 @@ Total Points Goal would be: 150
 CSV Incentive Names: Super Mario Bros,Marbles
 CSV Incentive Points Values: 50,100
 
-#### Disabling Certain Donations
+
+### Disabling Certain Donations
 To disable individual types from counting simply set their point value to 0.
 
-#### Automatically Saved
+
+### Automatically Saved
 The goal progress is automatically saved. However if there are any issues you can manually set the current exp progress value by entering the target value in the Overrides section, **saving the overlay**, then clicking the Set Progress button.
+
 
 ## How to Setup
 1. On your StreamElements dashboard go to Streaming tools > Overlays.
