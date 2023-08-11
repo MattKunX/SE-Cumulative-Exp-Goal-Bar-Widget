@@ -26,7 +26,7 @@ Currently supports:
 ##### Want More?
 If you like this project, found it useful, or simply would like to see me create more. Please consider offering me some support as it greatly helps me continue working on projects like this. You can even submit requests! Thank You!
 
-[![Support Me](https://storage.ko-fi.com/cdn/kofi4.png?v=3)](https://ko-fi.com/mattkun)
+[<img src="https://storage.ko-fi.com/cdn/kofi4.png?v=3" alt="Buy Me a Coffee" width="150">](https://ko-fi.com/mattkun)
 
 ## How it works
 
