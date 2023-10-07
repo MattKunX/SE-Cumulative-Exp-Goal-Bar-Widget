@@ -50,15 +50,19 @@ window.addEventListener('onEventReceived', function (obj) {
       switch(event) {
         case 'subscriber':
           let tierval = 1;
+          let amount = data.amount;
           
+          if (!data.gifted)
+            amount = 1;
+
           if (data.tier && data.tier !== "prime")
             tierval = data.tier / 1000;
           
           // bulk has unreliable tier value
           if (data.bulkGifted)
-            bulkTotal = data.amount;
+            bulkTotal = amount;
           else
-            subsAmount = data.amount * tierval;
+            subsAmount = amount * tierval;
 
           addPoints(subsAmount, fieldData.pointsPerSub);
           
