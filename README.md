@@ -78,3 +78,8 @@ The goal progress is automatically saved. However if there are any issues you ca
 
 If you need more help visit the [StreamElements official documentation](https://dev.streamelements.com/docs/widgets/3cf52461e4e34-before-starting).
 
+
+##### Known Issues
+Multiple month subscriptions (including gifted) only count as one. Example: "AwesomeViewer gifted 6 months of Tier 1 to MattKun!"
+However it will count each following month if the viewer shares their resub.
+Unfortunately until StreamElements changes the functionality of their API this cannot be changed.
