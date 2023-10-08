@@ -26,12 +26,12 @@ window.addEventListener('onWidgetLoad', function (obj) {
   
   	if (fieldData["sound"].length) {
 	  	levelSound = new Audio(fieldData["sound"]);
-      	levelSound.volume = fieldData["volume"] / 100;
+      levelSound.volume = fieldData["volume"] / 100;
     }
 });
 
 window.addEventListener('onEventReceived', function (obj) {
-  	const listener = obj.detail.listener;
+    const listener = obj.detail.listener;
     const event = listener.split("-")[0];
     const data = obj.detail.event;
   
@@ -39,8 +39,10 @@ window.addEventListener('onEventReceived', function (obj) {
       return;
       	
     // Handling widget buttons
-    if (data.listener === 'widget-button' && data.field === 'setProgress')
-        setPoints(fieldData["pogress"]);
+    if (data.listener === 'widget-button' && data.field === 'setProgress') {
+      initialUpdate = true;
+      setPoints(fieldData["pogress"]);
+    }
     
   	if (listener != 'kvstore:update') {
       let bitsAmount = 0;
@@ -135,7 +137,7 @@ function updateBar() {
       	percentage = (currentPoints - goalsPassedTotal) / incentivesValues[level] * 100;
     } else {
   		levelGoal = fieldData["goal"] / fieldData["levels"];
-      	level = Math.floor(currentPoints / levelGoal);
+      level = Math.floor(currentPoints / levelGoal);
 	    percentage = ((currentPoints / levelGoal) - level) * 100;
     }
   
