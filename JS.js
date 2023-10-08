@@ -50,17 +50,14 @@ window.addEventListener('onEventReceived', function (obj) {
       switch(event) {
         case 'subscriber':
           let tierval = 1;
-          let amount = data.amount;
+          let amount = 1; //data.amount; fix for previous months counted
           
-          if (!data.gifted)
-            amount = 1;
-
           if (data.tier && data.tier !== "prime")
             tierval = data.tier / 1000;
           
           // bulk has unreliable tier value
           if (data.bulkGifted)
-            bulkTotal = amount;
+            bulkTotal = data.amount;
           else
             subsAmount = amount * tierval;
 
