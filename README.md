@@ -34,12 +34,12 @@ In the widget editor you set the "exp" value of each individual donation type su
 
 Example: 5 tier 1 gift subs at the default 6 points per sub would add 30 exp.
 
-Twitch Tier Value Multipliers
-Prime & Tier 1: None
-Tier 2: 2 * point value
-Tier 3: 3 * point value
+Twitch Tier Value Multipliers  
+Prime & Tier 1: None  
+Tier 2: 2 * point value  
+Tier 3: 3 * point value  
 
-By default each level (incentive goal) is the Total Points Goal divided equally by the desired number of levels.
+By default each level (incentive goal) is the Total Points Goal divided equally by the desired number of levels.  
 (per level goal = Total Points / Levels)
 
 
@@ -50,9 +50,9 @@ For example if you wanted the following goals:
 1. Level 1 - 50 exp to play Super Mario Bros.
 2. Level 2 - 100 exp to play Marbles.
 
-Total Points Goal would be: 150
-CSV Incentive Names: Super Mario Bros,Marbles
-CSV Incentive Points Values: 50,100
+Total Points Goal would be: 150  
+CSV Incentive Names: Super Mario Bros,Marbles  
+CSV Incentive Points Values: 50,100  
 
 
 ### Disabling Certain Donations
@@ -80,6 +80,6 @@ If you need more help visit the [StreamElements official documentation](https://
 
 
 ##### Known Issues
-Multiple month subscriptions (including gifted) only count as one. Example: "AwesomeViewer gifted 6 months of Tier 1 to MattKun!"
-However it will count each following month if the viewer shares their resub.
-Unfortunately until StreamElements changes the functionality of their API this cannot be changed.
+Multiple month subscriptions (including gifted) only count as one. Example: "AwesomeViewer gifted 6 months of Tier 1 to MattKun!"  
+However it will count each following month if the viewer shares their resub.  
+Unfortunately until StreamElements changes the functionality of their API this cannot be changed.  
